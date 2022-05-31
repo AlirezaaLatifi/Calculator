@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/calc.ico" type="image/x-icon">
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/css/main.css">
+    <!-- Fontawsome -->
+    <script src="https://kit.fontawesome.com/660edb983a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <main class="mobile">
+
+        <!-- notifbar -->
+        <div class="notifbar">
+            <span class="notifbar__time">9:45</span>
+            <i class="fa-solid fa-signal notifbar__signal"></i>
+            <i class="fa-solid fa-wifi"></i>
+            <i class="fa-solid fa-battery-half fa-lg"></i>
+        </div>
+
+        <!-- result -->
+        <div class="result">
+            <div class="result__actions">
+                <i class="fa-solid fa-clock-rotate-left fa-xl result__action  result__history"></i>
+                <i class="fa-solid fa-circle-half-stroke fa-xl result__action  result__darkmode"></i>
+                <i class="fa-solid fa-rotate-left fa-xl result__action result__undo"></i>
+            </div>
+            <div class="result__math">
+                <span class="result__num1">814</span>
+                <span class="result__operator">X</span>
+                <span class="result__num2">122</span>
+            </div>
+            <div class="result__current">99308</div>
+        </div>
+
+        <!-- operations -->
+        <div class="operation">
+            <button class="btn btn--green operation__clear">AC</button>
+            <button class="btn btn--green operation__negetive">+/-</button>
+            <button class="btn btn--green operation__remainder">%</button>
+            <button class="btn btn--red operation__divide">/</button>
+            <button class="btn operation__num">7</button>
+            <button class="btn operation__num">8</button>
+            <button class="btn operation__num">9</button>
+            <button class="btn btn--red operation__multiply">*</button>
+            <button class="btn operation__num">4</button>
+            <button class="btn operation__num">5</button>
+            <button class="btn operation__num">6</button>
+            <button class="btn btn--red operation__minus">-</button>
+            <button class="btn operation__num">1</button>
+            <button class="btn operation__num">2</button>
+            <button class="btn operation__num">3</button>
+            <button class="btn btn--red operation__add">+</button>
+            <div></div>
+            <button class="btn operation__num">0</button>
+            <button class="btn">.</button>
+            <button class="btn btn--red operation__equal">=</button>
+        </div>
+
+    </main>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>

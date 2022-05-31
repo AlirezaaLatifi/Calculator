@@ -1,0 +1,62 @@
+// Pseudo Element
+@mixin pseudo($dis: block, $pos: absolute, $con: '') {
+    content: $con;
+    position: $pos;
+    display: $dis;
+}
+
+
+// Prefixed Keyframes
+@mixin keyframes($name) {
+    @-webkit-keyframes #{$name} {
+      @content;
+    }
+    @-moz-keyframes #{$name} {
+      @content;
+    }
+    @keyframes #{$name} {
+      @content;
+    }
+ }
+
+
+//  Absolute Position
+ @mixin abs-position ($top: 0, $left: 0, $bottom: null, $right: null) {
+    position: absolute; 
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+ }
+
+
+//  Mobile first Media Query
+@mixin breakpoint($point) {
+    @if $point == large {
+       @media only screen and (min-width: 1366px) {
+          @content;
+       }
+    } 
+    @else if $point == desktop {
+       @media only screen and (min-width: 1024px) {
+          @content;
+       }
+    } 
+    @else if $point == tablet {
+       @media only screen and (min-width: 600px) {
+          @content;
+       }
+    }
+ }
+
+
+
+//  display flex 
+@mixin flex($gap: null, $dir: null, $justify: space-between, $align: center) {
+   display: flex;
+   flex-direction: $dir;
+   justify-content: $justify;
+   align-items: $align;
+   gap: $gap;
+}
+

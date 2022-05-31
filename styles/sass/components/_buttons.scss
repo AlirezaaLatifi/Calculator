@@ -1,0 +1,22 @@
+@use "../abstracts/" as *;
+.btn {
+    border: none;
+    padding: 1rem;
+    height: 5rem;
+    background-color: var(--clr-bg-forground);
+    color: var(--clr-text-main);
+    transition: var(--trs-darkmode);
+
+    &:hover,
+    &:focus {
+        background-color: var(--clr-btn-hover);
+    }
+
+    &--green {
+        color: var(--clr-text-green);
+    }
+
+    &--red {
+        color: var(--clr-text-red);
+    }
+}

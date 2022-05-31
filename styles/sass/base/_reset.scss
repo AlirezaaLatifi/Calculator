@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;900&display=swap');
+
+:root {
+    --clr-bg-forground: #f3f3f3;
+    --clr-bg-background: #ffffff;
+    --clr-text-green: #1a8499;
+    --clr-text-red: #ef6765;
+    --clr-text-main: #010101;
+    --clr-border-mobile: rgb(34, 34, 34);
+    --clr-btn-hover: #dbdbdb;
+
+
+
+    --fs-800: 4.8rem;
+    --fs-700: 3.6rem;
+    --fs-600: 2rem;
+    --fs-500: 1.8rem;
+    --fs-400: 1.5rem;
+
+    --fw-900: 900;
+    --fw-700: 700;
+    --fw-600: 600;
+    --fw-500: 500;
+    --fw-400: 400;
+    --fw-300: 300;
+    --fw-200: 200;
+
+    --trs-darkmode: all .5s ease;
+
+    
+}
+
+
+html {      
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: var(--clr-text-main);
+    background-color: var(--clr-bg-body);
+    min-height: 100vh;
+    font-size: var(--fs-400);
+    line-height: 1.5;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+
+button {
+    cursor: pointer;
+}

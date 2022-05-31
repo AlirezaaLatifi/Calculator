@@ -1,0 +1,114 @@
+@use "../abstracts" as *;
+
+.mobile {
+    width: 100%;
+    background-color: var(--clr-bg-background);
+    transition: var(--trs-darkmode);
+}
+
+
+.notifbar {
+    height: 7vh;
+    color: var(--clr-text-main);
+    padding-inline: 2rem;
+    display: none;
+
+    &__time {
+        font-size: var(--fs-500);
+        font-weight: var(--fw-500);
+    }
+
+    &__signal {
+        margin-left: auto;
+    }
+}
+
+
+.result {
+    height: 45vh;
+    padding: 2rem;
+    @include flex (1rem, column, null, null);
+    transition: var(--trs-darkmode);
+
+
+
+    &__actions {
+        @include flex;
+        color: var(--clr-text-main);
+    }
+
+    &__action {
+        cursor: pointer;
+    }
+
+
+    &__math {
+        @include flex(.5rem, null, flex-end, center);
+        margin-top: auto;
+    }
+
+
+    &__num1 {
+        font-size: var(--fs-600);
+    }
+
+    &__operator {
+        color: var(--clr-text-red);
+    }
+
+    &__num2 {
+        font-size: var(--fs-600);
+    }
+
+    &__current {
+        text-align: right;
+        font-size: var(--fs-800);
+        font-weight: var(--fw-600);
+    }
+
+}
+
+
+.operation {
+    height: 55vh;
+    background-color: var(--clr-bg-forground);
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: var(--fs-500);
+    font-weight: var(--fw-700);
+    transition: var(--trs-darkmode);
+}
+
+
+
+
+@media (min-width: 600px) {
+
+    body {
+        display: grid;
+        place-content: center;
+    }
+
+    .mobile {
+        box-shadow:  0px 15px 35px 5px rgba(212, 212, 212, 0.35);
+        border: 2px solid var(--clr-border-mobile);
+        width: 35rem;
+        margin: 0 auto;
+        border-radius: 2rem;
+
+    }
+
+    .notifbar {
+        @include flex(1rem, null, null, center);
+    }
+
+    .result {
+        height: 35vh;
+    }
+
+    .operation {
+        height: 40vh;
+        border-radius: 0 0 2rem 2rem;
+    }
+}

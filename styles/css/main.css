@@ -19,7 +19,7 @@
   --fw-400: 400;
   --fw-300: 300;
   --fw-200: 200;
-  --trs-darkmode: all .5s ease;
+  --trs-darkmode: all 0.5s ease;
 }
 
 html {
@@ -138,23 +138,15 @@ button {
 .result__action {
   cursor: pointer;
 }
-.result__math {
+.result__result {
+  font-size: var(--fs-700);
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 0.5rem;
   margin-top: auto;
 }
-.result__num1 {
-  font-size: var(--fs-600);
-}
-.result__operator {
-  color: var(--clr-text-red);
-}
-.result__num2 {
-  font-size: var(--fs-600);
-}
-.result__current {
+.result__operation {
   text-align: right;
   font-size: var(--fs-800);
   font-weight: var(--fw-600);

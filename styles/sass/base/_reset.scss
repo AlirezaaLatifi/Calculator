@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;900&display=swap");
 
 :root {
     --clr-bg-forground: #f3f3f3;
@@ -8,8 +8,6 @@
     --clr-text-main: #010101;
     --clr-border-mobile: rgb(34, 34, 34);
     --clr-btn-hover: #dbdbdb;
-
-
 
     --fs-800: 4.8rem;
     --fs-700: 3.6rem;
@@ -25,13 +23,10 @@
     --fw-300: 300;
     --fw-200: 200;
 
-    --trs-darkmode: all .5s ease;
-
-    
+    --trs-darkmode: all 0.5s ease;
 }
 
-
-html {      
+html {
     font-size: 62.5%;
     box-sizing: border-box;
 }
@@ -54,9 +49,8 @@ body {
     min-height: 100vh;
     font-size: var(--fs-400);
     line-height: 1.5;
-    font-family: 'Outfit', sans-serif;
+    font-family: "Outfit", sans-serif;
 }
-
 
 img {
     max-width: 100%;
@@ -78,7 +72,6 @@ textarea,
 select {
     font: inherit;
 }
-
 
 button {
     cursor: pointer;

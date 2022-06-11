@@ -2,23 +2,21 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/calc.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/calc.ico" type="image/x-icon" />
     <!-- Styles -->
-    <link rel="stylesheet" href="styles/css/main.css">
+    <link rel="stylesheet" href="styles/css/main.css" />
     <!-- Fontawsome -->
     <script src="https://kit.fontawesome.com/660edb983a.js" crossorigin="anonymous"></script>
 </head>
+<section></section>
 
 <body>
-
-
     <main class="mobile">
-
         <!-- notifbar -->
         <div class="notifbar">
             <span class="notifbar__time">9:45</span>
@@ -30,17 +28,25 @@
         <!-- result -->
         <div class="result">
             <div class="result__actions">
-                <i class="fa-solid fa-clock-rotate-left fa-xl result__action  result__history"></i>
-                <i class="fa-solid fa-circle-half-stroke fa-xl result__action  result__darkmode"></i>
+                <i class="fa-solid fa-clock-rotate-left fa-xl result__action result__history"></i>
+                <i class="fa-solid fa-circle-half-stroke fa-xl result__action result__darkmode"></i>
                 <i class="fa-solid fa-rotate-left fa-xl result__action result__undo"></i>
             </div>
-            <div class="result__math">
-                <span class="result__num1">814</span>
-                <span class="result__operator">X</span>
-                <span class="result__num2">122</span>
-            </div>
-            <div class="result__current">99308</div>
+            <div class="result__result">8</div>
+            <div class="result__operation">6 + 6 / 3</div>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
         <!-- operations -->
         <div class="operation">
@@ -65,11 +71,9 @@
             <button class="btn">.</button>
             <button class="btn btn--red operation__equal">=</button>
         </div>
-
     </main>
 
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

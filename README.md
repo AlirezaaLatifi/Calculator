@@ -1,7 +1,7 @@
 
 # Calculator
 
-It's a simple calculator, supports the basic operators (+, -, *, /, %) and observes the operator's precedence.
+It's a simple calculator, **supports the basic operators** (+, -, *, /, %) and **observes the operator's precedence**.
 
 
 ## Screenshots
@@ -18,7 +18,7 @@ It's a simple calculator, supports the basic operators (+, -, *, /, %) and obser
 
 ## Lessons Learned
 
-Before starting this project, I spent a day learning Regex! Thus I was so biased in using what I've learned about it. So the solution may not be optimal and scalable. Anyway, this was good practice for empower My Regex knowledge, Array and String's methodes and  problem-solving in general. 
+Before starting this project, I spent a day learning Regex! Thus I was so biased in using what I've learned about it. So the solution may not be optimal and scalable. Anyway, **this was good practice for empower My Regex knowledge, Array and String's methodes and  problem-solving in general**. 
 
 
 ## Live version

@@ -6,7 +6,7 @@ const bodyEl = document.querySelector("body");
 // actions
 const historyBtn = document.querySelector(".result__history");
 const darkmodebBtn = document.querySelector(".result__darkmode");
-const undoBtn = document.querySelector(".result__undo");
+const backspaceBtn = document.querySelector(".result__backspace");
 // result
 const operationEl = document.querySelector(".result__operation");
 const resultEl = document.querySelector(".result__result");
@@ -33,18 +33,7 @@ resetValues();
 // Marked Btn EventListener
 markedBtns.forEach((el) => {
     el.addEventListener("click", function (e) {
-        // to reset for starting again after pressing equal btn
-        if (resultEl.textContent === "") {
-            resetValues();
-        }
-
-        setOperationStr(e.target);
-        // checks if it passes the filters in setOperationStr function
-        if (operationStr) {
-            displayOperation();
-            calcResult();
-            displayResult();
-        }
+        mainFlow(e);
     });
 });
 
@@ -57,9 +46,31 @@ equalBtn.addEventListener("click", function () {
 clearBtn.addEventListener("click", function () {
     resetValues();
 });
+
+//  Backspace Btn EventListener
+backspaceBtn.addEventListener("click", function (e) {
+    operationStr = operationStr.slice(0, -1);
+    mainFlow(e);
+});
 // -------------------------------------------------------------------------------------------------------------------------
 
 /* * * Functionalities * * */
+
+// Main flow
+function mainFlow(e) {
+    // to reset for starting again after pressing equal btn
+    if (resultEl.textContent === "") {
+        resetValues();
+    }
+
+    setOperationStr(e.target);
+    // checks if it passes the filters in setOperationStr function
+    if (operationStr) {
+        displayOperation();
+        calcResult();
+        displayResult();
+    }
+}
 
 // set operationStr
 function setOperationStr(obj) {

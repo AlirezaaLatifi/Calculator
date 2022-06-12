@@ -75,7 +75,7 @@ button {
 
 .dark-mode {
   --clr-bg-forground: #262931;
-  --clr-bg-background: #191C22;
+  --clr-bg-background: #191c22;
   --clr-text-green: #1a8499;
   --clr-text-red: #ef6765;
   --clr-text-main: #fafafa;
@@ -99,6 +99,9 @@ button {
 }
 .btn--red {
   color: var(--clr-text-red);
+}
+.btn--disabled {
+  color: lightslategrey;
 }
 
 .mobile {

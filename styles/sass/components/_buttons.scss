@@ -19,4 +19,8 @@
     &--red {
         color: var(--clr-text-red);
     }
+
+    &--disabled {
+        color: lightslategrey;
+    }
 }

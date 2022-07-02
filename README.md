@@ -1,19 +1,17 @@
 
 # Calculator
 
-It's a simple calculator, **supports the basic operators** (+, -, *, /, %) and **observes the operator's precedence**.
+It's a simple calculator, **supports the basic operators** (+, -, *, /, %) and **observes the operator's precedence**, developer for training purposes.
 
 
 ## Screenshots
 
 ![Calculator-Screenshot](https://user-images.githubusercontent.com/92823582/173245226-517bf59b-d9dc-498e-86c7-9850a4e3238c.jpg)
 
-## Technologies 
+## I was focused on 
 
-- HTML
-- CSS3 / Sass
-- Pure Javascript
 - Regex
+- Pure Javascript
 
 
 ## Lessons Learned

@@ -21,7 +21,7 @@ It's a simple calculator, **supports the basic operators** (+, -, *, /, %) and *
 Before starting this project, I spent a day learning Regex! Thus I was so biased in using what I've learned about it. So the solution may not be optimal and scalable. Anyway, **this was good practice for empowering My Regex knowledge, Working with Array and String's methodes and problem-solving in general**. 
 
 
-## Live Demo
+## Demo
 https://calculator-alireza-latifi.netlify.app/
 
 

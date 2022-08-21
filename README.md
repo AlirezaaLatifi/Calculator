@@ -1,7 +1,7 @@
 
 # Calculator
 
-It's a simple calculator, **supports the basic operators** (+, -, *, /, %) and **observes the operator's precedence**, developer for training purposes.
+It's a simple calculator, **supports the basic operators** (+, -, *, /, %) and **observes the operator's precedence**, developed for training purposes.
 
 
 ## Screenshots
@@ -23,10 +23,10 @@ Before starting this project, I spent a day learning Regex! Thus I was so biased
 https://calculator-alireza-latifi.netlify.app/
 
 
-## My Social Medias
+## Contact Me
 
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/alir3za_latifi) 
+- l.alirezalatifi@gmail.com
+- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alirezalatifi/)
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aalirezalatifi/)
 
 
